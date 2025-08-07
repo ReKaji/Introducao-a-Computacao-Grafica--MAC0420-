@@ -1,0 +1,12 @@
+/*
+EP2 de MAC0420/MAC5744 - Paredão
+
+Autor: Renan Ryu Kajihara
+Data: 01/05/2025
+Comentários: essa solução foi baseada nos capítulos 7 e 8 do material do curso
+ */
+
+canvas {
+  border: 1px solid black;
+  background-color: white;
+}

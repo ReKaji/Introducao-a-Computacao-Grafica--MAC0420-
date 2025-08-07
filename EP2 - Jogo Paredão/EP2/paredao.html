@@ -1,0 +1,36 @@
+<!-- /*  
+EP2 de MAC0420/MAC5744 - Paredão
+
+Autor: Renan Ryu Kajihara
+Data: 01/05/2025
+Comentários: essa solução foi baseada nos capítulos 7 e 8 do material do curso
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Paredão</title>
+	<script src="https://www.ime.usp.br/~hitoshi/mac0420/libs/macWebglUtils.js"></script>
+	<script src="https://www.ime.usp.br/~hitoshi/mac0420/libs/MVnew.js"></script>
+	<script src="paredao.js"></script>
+</head>
+
+<body>
+    <h1>Paredão: EP02 de MAC0420/MAC5744</h1>
+    <p></p>
+    <button id = "jogar">Jogar</button>
+    <button id = "limpar">Limpar</button>
+    <p></p>
+    <label for="vel_bola">Velocidade da bola:</label>
+    <input id="vel_bola" type="range" value="1" min="1" max="10" step="1">
+    <label for="tam_raquete">Tamanho da raquete:</label>
+    <input id="tam_raquete" type="range" value="1" min="1" max="10" step="1">
+    <p></p>
+	<canvas id="glcanvas" width="640" height="480">
+		Opa! pode parece que seu navegador não suporta o canvas do HTML5.
+	</canvas>
+
+</body>
+
+</html>
